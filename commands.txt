@@ -1,0 +1,43 @@
+  660  cd MagiaTerminala/
+  661  git init
+  662  ls
+  663  ls -la
+  664  git status
+  665  touch processes.txt
+  666  ps aux > processes.txt 
+  667  cp processes.txt copy.txt
+  668  mkdir kopia
+  669  mv copy.txt ./kopia/
+  670  ls
+  671  wc -l processes.txt 
+  672  wc -l processes.txt >> processes.txt 
+  673  grep '*/bin*' processes.txt 
+  674  grep '/bin' processes.txt 
+  675  wc -l processes.txt |grep '/bin' processes.txt 
+  676  wc -l processes.txt | grep '/bin' processes.txt 
+  677  grep '/bin' processes.txt > wc -l processes.txt 
+  678  grep '/bin' processes.txt | wc -l processes.txt 
+  679  grep '/bin' processes.txt || wc -l processes.txt 
+  680  grep -n '/bin' processes.txt 
+  681  grep -n '/bin' processes.txt  >> processes.txt 
+  682  grep --help
+  683  grep -n '/bin' processes.txt  >> processes.txt 
+  684  grep -n '/bin' processes.txt  >> tmp.txt
+  685  cat tmp.txt >> processes.txt 
+  686  cat processes.txt 
+  687  rm tmp.txt 
+  688  history
+  689  tail -n 28 
+  690  tail -n 28 | history 
+  691  history > tail -n 28
+  692  history > tail -n 28 > comands.txt
+  693  ls
+  694  cat comands.txt 
+  695  rm comands.txt 
+  696  rm tail 
+  697  rm wc 
+  698  ;s
+  699  ls
+  700  history | tail -n 30
+  701  history
+  702  history | tail -n 43 > commands.txt
